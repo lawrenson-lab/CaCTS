@@ -1,5 +1,6 @@
 ---
-title: "speed-and-distance"
+title: "index"
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
