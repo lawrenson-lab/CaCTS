@@ -15,14 +15,38 @@ preprint .
 Install all packages in the latest version of
 [R](https://www.r-project.org/).
 
+### Option 1
+
 Downaload
 [CaCTS](https://github.com/lawrenson-lab/CaCTS_zip/raw/master/CaCTS_1.0.tar.gz)
-package and run the following command in a
-    *Terminal*
+package and run the following command in a *Terminal*
 
 ``` r
 R CMD INSTALL CaCTS_1.0.tar.gz
 ```
+
+### Option 2
+
+First, install the devtools package.
+
+``` r
+install.packages("devtools")
+```
+
+Load the devtools package.
+
+``` r
+library(devtools)
+```
+
+Use install\_github as follows: Load the devtools package.
+
+``` r
+install_github("lawrenson-lab/CaCTS_pkg")
+```
+
+Load the CaCTS
+    package.
 
 ``` r
 library(CaCTS)
