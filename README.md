@@ -42,7 +42,7 @@ library(devtools)
 Use install\_github as follows: Load the devtools package.
 
 ``` r
-install_github("lawrenson-lab/CaCTS_pkg")
+install_github("lawrenson-lab/CaCTS")
 ```
 
 Load the CaCTS
