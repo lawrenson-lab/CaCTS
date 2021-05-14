@@ -72,23 +72,6 @@ run_CaCTS_score <- function (rep.matrix,
 }
 
 
-w.p.values <- unlist(mclapply(values,
-                              function(probe) {
-                                zz <- my.t.test.p.value(as.matrix(probe[NoseLines]),as.matrix(probe[191:287]))
-                                return(zz)
-                              }, mc.cores=10)) #numero de cores
-
-w.p.values.adj <- p.adjust(w.p.values, method = "BH")
-
-# http://onlinestatbook.com/2/tests_of_means/difference_means.html
-
-
-my.t.test.p.value <- function(...) {
-  obj<-try(t.test(...), silent=TRUE)
-  if (is(obj, "try-error")) return(NA) else return(obj$p.value)
-}
-
-
 KLD <- function (A, B)
 {
   sum(A * log(A/B))
