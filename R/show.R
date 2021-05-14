@@ -14,7 +14,7 @@
     "                                              | |                   \n",
     "                                              | |                   \n",
     " -------------------------------------------------------------------\n",
-    "       Finding TF Cancer Cell-Type-Specificity (CaCTS)              \n",
+    "    Finding Cancer Core Transcription factor Specificity (CaCTS)    \n",
     "       Version:",utils::packageVersion("CaCTS"),"\n",
     " ===================================================================\n"
   )
