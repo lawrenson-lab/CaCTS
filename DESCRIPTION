@@ -11,6 +11,7 @@ Depends:
     R (>= 3.2)
 Imports:
   cowplot,
-  ggplot2
+  ggplot2,
+  parallel
 RoxygenNote: 6.1.1
 Encoding: UTF-8
