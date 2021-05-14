@@ -1,0 +1,16 @@
+Package: CaCTS
+Type: Package
+Title: CaCTS: Cancer Cell-Type-Specificity. An R package to predict Master Regulator Transcription Factors
+Version: 0.2.1
+Author: Marcos Abraao de Souza Fonseca
+Maintainer: Marcos Abraao de Souza Fonseca <marcos.abraaodesouzafonseca@cshs.org>
+Description: An algorithm, Cancer Cell-Type-Specificity (CaCTS), to predict MTFs across 33 cancer types by identifying TFs with high-level expression.
+License: License: GPL (>= 3)
+LazyData: TRUE
+Depends:
+    R (>= 3.2)
+Imports:
+  cowplot,
+  ggplot2
+RoxygenNote: 6.1.1
+Encoding: UTF-8
