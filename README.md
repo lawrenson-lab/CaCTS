@@ -7,7 +7,7 @@ CaCTS Tutorial
 an algorithm to identify candidate MTFs using pan-cancer RNA-sequencing
 data from The Cancer Genome Atlas. In this page we describe the
 procedures to perform CaCTS analysis. For more results details, please
-check our [biorixv](https://www.biorxiv.org/content/10.1101/839142v1)
+check our [SCIENCE ADVANCES](https://www.science.org/doi/10.1126/sciadv.abf6123)
 preprint .
 
 # 1\. Installation
