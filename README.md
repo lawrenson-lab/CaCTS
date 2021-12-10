@@ -72,7 +72,7 @@ Basically, CaCTS algorithm requires two main data structure inputs: the
 
 ``` r
 # Exoression data
-load("data/TCGA.RNA.Rda")
+load("files/TCGA.RNA.Rda")
 TCGA.RNA[1:4, 1:4]
 ```
 
@@ -89,7 +89,7 @@ TCGA.RNA[1:4, 1:4]
 
 ``` r
 # Annotations
-annot.table <- read.delim("data/SuppTable1-34-TCGAID.txt")
+annot.table <- read.delim("files/SuppTable1-34-TCGAID.txt")
 colnames(annot.table)[3] <- "sample.id"
 colnames(annot.table)[2] <- "group.name"
 head(annot.table)
@@ -137,7 +137,7 @@ lists we created a catalogue of 1,671 unique TFs, of which 1,578 were
 expressed in the pancan data set.
 
 ``` r
-TF.list = read.delim("data/merged.list.1671.TFs.txt", sep = "\t")
+TF.list = read.delim("files/merged.list.1671.TFs.txt", sep = "\t")
 
 f.TCGA.RNA = TCGA.RNA[which(TCGA.RNA$gene_symbol %in% as.character(TF.list$NameTF)),]
 dim(f.TCGA.RNA)
