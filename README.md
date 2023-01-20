@@ -1,8 +1,6 @@
 CaCTS Tutorial
 ================
 
-## R Markdown
-
 **Ca**ncer **C**ore **T**ranscription factor **S**pecificity (CaCTS) is
 an algorithm to identify candidate MTFs using pan-cancer RNA-sequencing
 data from The Cancer Genome Atlas. In this page we describe the
